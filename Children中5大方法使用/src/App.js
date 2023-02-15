@@ -1,3 +1,10 @@
+/*
+ * @Description: Children五大方法使用
+ * @Author: 陈崇俊
+ * @Date: 2023-02-13 17:21:41
+ * @LastEditors: 陈崇俊
+ * @LastEditTime: 2023-02-15 10:26:02
+ */
 import React, { Children } from 'react';
 
 class ChildrenCounter extends React.PureComponent {
@@ -55,6 +62,7 @@ function App() {
         </>
       </ChildrenOnlyChecker>
       <ChildrenToArray>
+        {/* 此处则会转换成数组 */}
         {/* <h1>test1</h1>
         <h2>test2</h2>
         <h3>test3</h3> */}
